@@ -1,0 +1,87 @@
+
+/* Chat container */
+.chat-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-image: url(https://tse1.mm.bing.net/th?id=OIP.PjX5sA1kYdjbl1He7M4IiwHaEo&pid=Api&P=0&h=220);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    
+}
+
+/* Chat header */
+.chat-header {
+    background-color: #22672f;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Chat box */
+.chat-box {
+    padding: 10px;
+    height: 300px;
+    overflow-y: scroll;
+    color: black;
+}
+
+/* Chat messages */
+.chat-box div {
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* User message */
+.user-message {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: right;
+}
+
+/* Bot message */
+.bot-message {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+/* Chat input and send button */
+.chat-input {
+    display: flex;
+    padding: 10px;
+    background-color: #272626;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+button {
+    background-color: #135fb0;
+    color: #d4e781;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.poto{
+    width: 80px;
+    grid: 100px;
+    border-radius: 50px;
+    margin: 0px;
+}
+
+.b{
+    background-color: gray;
+}
